@@ -32,7 +32,7 @@
 			<key>FSProbeArguments</key>
 			<string>-p</string>
 			<key>FSProbeExecutable</key>
-			<string>../../fusefs_hfs.util</string>
+			<string>fusefs_hfs.util</string>
 			<key>FSProbeOrder</key>
 			<integer>900</integer>
 			<key>autodiskmount</key>
@@ -50,7 +50,7 @@
 			<key>FSProbeArguments</key>
 			<string>-p</string>
 			<key>FSProbeExecutable</key>
-			<string>../../fusefs_hfs.util</string>
+			<string>fusefs_hfs.util</string>
 			<key>FSProbeOrder</key>
 			<integer>900</integer>
 		</dict>
@@ -66,7 +66,7 @@
 			<key>FSProbeArguments</key>
 			<string>-p</string>
 			<key>FSProbeExecutable</key>
-			<string>../../fusefs_hfs.util</string>
+			<string>fusefs_hfs.util</string>
 			<key>FSProbeOrder</key>
 			<integer>1900</integer>
 		</dict>
@@ -80,7 +80,7 @@
 			<key>FSFormatContentMask</key>
 			<string>Apple_HFS</string>
 			<key>FSFormatExecutable</key>
-			<string>../../fusefs_hfs.util</string>
+			<string>fusefs_hfs.util</string>
 			<key>FSFormatMaximumSize</key>
 			<integer>2147483648</integer>
 			<key>FSFormatMinimumSize</key>
@@ -88,17 +88,17 @@
 			<key>FSMountArguments</key>
 			<string>-m</string>
 			<key>FSMountExecutable</key>
-			<string>../../fusefs_hfs.util</string>
+			<string>fusefs_hfs.util</string>
 			<key>FSName</key>
 			<string>HFS</string>
 			<key>FSRepairArguments</key>
 			<string>-y</string>
 			<key>FSRepairExecutable</key>
-			<string>../../../../../../sbin/fsck_hfs</string>
+			<string>/sbin/fsck_hfs</string>
 			<key>FSVerificationArguments</key>
 			<string>-fn</string>
 			<key>FSVerificationExecutable</key>
-			<string>../../../../../../sbin/fsck_hfs</string>
+			<string>/sbin/fsck_hfs</string>
 		</dict>
 	</dict>
 </dict>
