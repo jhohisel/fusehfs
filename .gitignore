@@ -1,0 +1,4 @@
+**/*.o
+**/*~
+FuseHFS.xcodeproj/project.xcworkspace/xcuserdata
+FuseHFS.xcodeproj/xcuserdata

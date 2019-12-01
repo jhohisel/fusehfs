@@ -86,14 +86,15 @@ int main (int argc, char * argv[], char * envp[], char * apple[]) {
 		case FSUC_PROBE:
 			ret = probe(argv[2], !strcmp(argv[3],DEVICE_REMOVABLE), !strcmp(argv[4],DEVICE_READONLY));
 			break;
-		case FSUC_INITIALIZE: {
-			int larg = 2;
-			const char *label, *device;
-			if (strcmp(argv[2], "-v") == 0) larg = 3;
-			label = argv[larg];
-			device = argv[larg+1];
-			ret = initialize(device, label);
-			break; }
+// Initialize seems to no longer be supported (macOS 10.15)
+//		case FSUC_INITIALIZE: {
+//			int larg = 2;
+//			const char *label, *device;
+//			if (strcmp(argv[2], "-v") == 0) larg = 3;
+//			label = argv[larg];
+//			device = argv[larg+1];
+//			ret = initialize(device, label);
+//			break; }
 		case FSUC_MOUNT:
 			ret = mount(argv[argc-2], argv[argc-1]);
 			break;

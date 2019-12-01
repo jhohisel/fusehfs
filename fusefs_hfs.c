@@ -23,7 +23,6 @@
 #include <libkern/OSByteOrder.h>
 #include <sys/xattr.h>
 #include "fusefs_hfs.h"
-#include "log.h"
 
 //#define DEBUG
 
